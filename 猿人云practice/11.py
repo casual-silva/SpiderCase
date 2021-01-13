@@ -15,7 +15,7 @@ headers = {
 }
 
 cookies = {
-    'sessionid': 'suv8r1mdmcyx39dzce0681lfr2w2ykzz',
+    'sessionid': 'a6qth7mmti2nayj0jmdyyed96snnip7g',
 }
 
 pre_js_attach = '''
@@ -78,6 +78,4 @@ def main():
     return result
 
 if __name__ == '__main__':
-    # main()
-    resp = requests.get(url, headers=headers, cookies=cookies)
-    print(resp.cookies, resp.text)
+    print(main())
